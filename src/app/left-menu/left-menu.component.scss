@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.container {
+.left-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,13 +9,15 @@
     background-color: #151b1f;
 }
 
-.container {
-    .button {
+.left-menu {
+    .menu-btn {
         margin-top: 40px;
         align-items: center;
         display: flex;
         flex-direction: column;
+    }
 
+    .menu-btn {
         :nth-child(n) {
             width: 24px;
             height: 3px;
@@ -29,12 +31,14 @@
         }
     }
 
-    .button:hover {
-            cursor: pointer;
+    .menu-btn:hover {
+        cursor: pointer;
+    }
 
-            :nth-child(n) {
-                width: 27px;
-            }
+    .menu-btn:hover {
+        :nth-child(n) {
+            width: 27px;
+        }
     }
 
     .lang {
