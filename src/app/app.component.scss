@@ -1,0 +1,11 @@
+.container, .main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.main-container {
+    :nth-child(n) {
+        width: 50%;
+    }
+}

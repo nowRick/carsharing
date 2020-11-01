@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 64px;
+    background-color: #ffffff;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.info {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+
+    .header {
+        .logo {
+            font-size: 30px;
+            color: #0ec261;
+        }
+
+        .map {
+            display: flex;
+            align-items: center;
+        }
+
+        .map {
+            .city {
+                font-size: 14px;
+                color: #999999;
+                margin: auto;
+            }
+        }
+    }
+
+    .main-block {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+    }
+
+    .main-block {
+        .carsharing {
+            color: #121212;
+            font-size: 70px;
+            margin-bottom: 4px;
+        }
+
+        .need-for-drive {
+            font-size: 70px;
+            color: #0ec261;
+            margin-bottom: 34px;
+        }
+
+        .car-rental {
+            color: #999999;
+            font-weight: 300;
+            font-size: 26px;
+            margin-bottom: 60px;
+        }
+
+        .main-btn {
+            display: flex;
+        }
+
+        .main-btn {
+            :only-child {
+                font-weight: 500;
+                font-size: 18px;
+                color: #FFFFFF;
+                padding: 15px 60px 11px 60px;
+                background: linear-gradient(90deg, #0EC261 2.61%, #039F67 112.6%);
+                border-radius: 8px;
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+
+    .footer {
+        .copyright {
+            font-size: 13px;
+            color: #999999;
+        }
+
+        .number {
+            font-size: 13px;
+            color: #121212;
+        }
+    }
+}
