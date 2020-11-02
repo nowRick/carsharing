@@ -1,4 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .slider {
+    display: flex;
     height: 100%;
-    background-color: blue;
+    background-image: url('/assets/cars/car2.png');
+    background-size: cover;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.slider {
+    .slider-arrow {
+        display: flex;
+        width: 64px;
+        justify-content: center;
+        // position: static;
+    }
+
+    .slider-arrow:hover {
+        cursor: url('/assets/cursor/pointer.png'), auto;
+        background: rgba(14, 194, 97, 0.2);
+    }
+
+    .slider-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-center {
+        .slider-block-info {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: center;
+            padding: 0px 32px;
+        }
+    
+        .slider-block-info {
+            .slider-title {
+                font-weight: 500;
+                font-size: 40px;
+                color: #ffffff;
+                margin-bottom: 8px;
+            }
+    
+            .slider-description {
+                font-weight: 300;
+                font-size: 24px;
+                color: #eeeeee;
+                margin-bottom: 32px;
+            }
+    
+            .slider-btn {
+                display: flex;
+            }
+    
+            .slider-btn {
+                :only-child {
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #eeeeee;
+                    padding: 15px 60px 11px 60px;
+                    background: linear-gradient(90deg, #13493F 0%, #0C7B1B 100%);
+                    border-radius: 4px;
+                }
+            }
+        }
+    
+        .slider-footer {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 32px;
+        }
+    
+        .slider-footer {
+            :nth-child(n) {
+                width: 8px;
+                height: 8px;
+                background-color: #eeeeee;
+                border-radius: 4px;
+                margin-right: 8px;
+            }
+    
+            :last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+.active {
+    background-color: #0ec261 !important;
 }
