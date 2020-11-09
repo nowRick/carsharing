@@ -5,7 +5,18 @@
 }
 
 .main-container {
-    :nth-child(n) {
+    display: flex;
+    .main-container-item {
         width: 50%;
+    }
+
+    @media screen and (max-width: 1440px){
+        .main-container-item:first-child {
+            width: 57.5%;
+        }
+
+        .main-container-item:last-child {
+            width: 42.5%;
+        }
     }
 }

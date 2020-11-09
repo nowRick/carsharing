@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 .left-menu {
     display: flex;
     flex-direction: column;
@@ -10,37 +8,6 @@
 }
 
 .left-menu {
-    .menu-btn {
-        margin-top: 40px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu-btn {
-        :nth-child(n) {
-            width: 24px;
-            height: 3px;
-            background-color: #ffffff;
-            margin-bottom: 5px;
-            border-radius: 2px;
-        }
-
-        :last-child {
-            margin-bottom: 0px;
-        }
-    }
-
-    .menu-btn:hover {
-        cursor: url('/assets/cursor/pointer.png'), auto;
-    }
-
-    .menu-btn:hover {
-        :nth-child(n) {
-            width: 27px;
-        }
-    }
-
     .lang {
         font-family: 'Roboto';
         font-style: normal;
