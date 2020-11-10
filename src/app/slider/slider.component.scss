@@ -1,6 +1,7 @@
 .slider {
     display: flex;
     height: 100%;
+    width: 100%;
     background-image: url('/assets/cars/car2.png');
     background-size: cover;
     background-position: center;
@@ -14,6 +15,7 @@
     .slider-background {
         display: flex;
         height: 100%;
+        width: 100%;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
         mix-blend-mode: normal;
     }
@@ -21,7 +23,7 @@
     .slider-background {     
         .slider-arrow {
             display: flex;
-            width: 64px;
+            width: 32px;
             justify-content: center;
         }
     
@@ -31,6 +33,7 @@
         }
     
         .slider-center {
+            width: 100%;
             display: flex;
             flex-direction: column;
         }
@@ -51,7 +54,7 @@
                     color: #ffffff;
                     margin-bottom: 8px;
     
-                    @media screen and (max-width: 1440px){
+                    @media screen and (max-width: 1440px) {
                         font-size: 32px;
                     }
                 }
@@ -62,7 +65,7 @@
                     color: #eeeeee;
                     margin-bottom: 32px;
     
-                    @media screen and (max-width: 1440px){
+                    @media screen and (max-width: 1440px) {
                         font-size: 22px;
                     }
                 }
