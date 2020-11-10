@@ -3,10 +3,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-
-    @media screen and (max-width: 768px) {
-        margin-top: 24px;
-    }
 }
 
 .menu-btn {
@@ -16,15 +12,6 @@
         background-color: #ffffff;
         margin-bottom: 5px;
         border-radius: 2px;
-
-        @media screen and (max-width: 1024px) {
-            width: 32px;
-        }
-
-        @media screen and (max-width: 768px) {
-            width: 19px;
-            background-color: #151b1f;
-        }
     }
 
     :last-child {
@@ -39,13 +26,5 @@
 .menu-btn:hover {
     :nth-child(n) {
         width: 27px;
-
-        @media screen and (max-width: 1024px) {
-            width: 35px;
-        }
-
-        @media screen and (max-width: 768px) {
-            width: 22px;
-        }
     }
 }
