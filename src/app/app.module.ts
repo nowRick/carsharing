@@ -7,6 +7,8 @@ import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { MainComponent } from './main/main.component';
 import { SliderComponent } from './slider/slider.component';
 import { DashComponent } from './components/dash/dash.component';
+import { FullScreenMenuComponent } from './full-screen-menu/full-screen-menu.component';
+import { LangComponent } from './lang/lang.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { DashComponent } from './components/dash/dash.component';
     LeftMenuComponent,
     MainComponent,
     SliderComponent,
-    DashComponent
+    DashComponent,
+    FullScreenMenuComponent,
+    LangComponent
   ],
   imports: [
     BrowserModule,
