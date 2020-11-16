@@ -1,7 +1,7 @@
 <div class="left-menu">
-    <app-dash></app-dash>
-
+    <app-dash (click)="toggleMenu()"></app-dash>
+    <app-full-screen-menu *ngIf="isFullScreenMenuShow" (close)="toggleMenu()"></app-full-screen-menu>
     <div class="lang">
-        Eng
+        <app-lang></app-lang>
     </div>
 </div>
